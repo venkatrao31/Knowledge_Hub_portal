@@ -1,8 +1,10 @@
+server:
+  port: 8054
 spring:
   application:
     name: Knowledge_Hub_Portal
   datasource:
-    url: jdbc:mysql://localhost:3306/knowledge_Hub?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/com.knowledge_Hub?createDatabaseIfNotExist=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
